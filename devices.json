@@ -1,0 +1,87 @@
+[
+  {
+    "id": "ABC123",
+    "location": {
+      "building": "Main",
+      "campus": "Methodist",
+      "floor": "3",
+      "hospital": "Thomas Jefferson University Hospital",
+      "room": "318",
+      "unit": "Fake Unit"
+    },
+    "modules": [
+      {
+        "id": "abc321",
+        "type": "nacelle"
+      }
+    ],
+    "type": "warpdrive"
+  },
+  {
+    "id": "ABC124",
+    "location": {
+      "building": "Main",
+      "campus": "Methodist",
+      "floor": "3",
+      "hospital": "Thomas Jefferson University Hospital",
+      "room": "319",
+      "unit": "Fake Unit"
+    },
+    "modules": [
+      {
+        "id": "abc421",
+        "type": "nacelle"
+      }
+    ],
+    "type": "warpdrive"
+  },
+  {
+    "id": "ABC125",
+    "location": {
+      "building": "Main",
+      "campus": "Methodist",
+      "floor": "3",
+      "hospital": "Thomas Jefferson University Hospital",
+      "room": "320",
+      "unit": "Fake Unit"
+    },
+    "modules": [],
+    "type": "warpdrive"
+  },
+  {
+    "location": {
+      "unit": "Fake Unit",
+      "floor": "3",
+      "hospital": "Methodist Hospital",
+      "campus": "Methodist",
+      "building": "Main",
+      "room": "318"
+    },
+    "lastHeartbeat": "2019-02-26T20:12:50.240Z",
+    "id": "abc321",
+    "deviceMeta": {
+      "temperature": 54.23,
+      "git_describe": "1.0.0"
+    },
+    "lastUpdate": "2019-02-26T20:12:50.240Z",
+    "type": "nacelle"
+  },
+  {
+    "location": {
+      "unit": "Fake Unit",
+      "floor": "3",
+      "hospital": "Methodist Hospital",
+      "campus": "Methodist",
+      "building": "Main",
+      "room": "319"
+    },
+    "lastHeartbeat": "2019-02-26T20:12:50.240Z",
+    "id": "abc421",
+    "deviceMeta": {
+      "temperature": 57.23,
+      "git_describe": "1.0.1"
+    },
+    "lastUpdate": "2019-02-26T20:12:50.240Z",
+    "type": "nacelle"
+  }
+]
