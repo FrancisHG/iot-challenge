@@ -11,7 +11,7 @@ Gritty has a toybox. Inside of this toybox are Gritty's devices. This Node.js se
 
 1. Using Windows run `winStartup.bat`
 2. Access `getById` API by calling `localhost\devices\getById\{id}`
-3. Access `getByType` API by calling `localhost\devices\getByType\{id}`
+3. Access `getByType` API by calling `localhost\devices\getByType\{type}`
 4. Run winTests.bat to run unit tests
 
 ## TODOs and assumptions
