@@ -12,8 +12,9 @@ var devices = {
         return JSON.parse(rawdata);
     },
 
+    // Summary: Eager load Device objects to Modules array, recursively for children
     // Params: array object containing {Id,Type} objects
-    // Return: An object
+    // Return: An object where the key/property is the `type` and the value is the device object
     normalizeModules:  function (m) {
         var preparedModules = {};
 
@@ -69,7 +70,7 @@ var devices = {
     }
 }
 
-
+// Export these functions for consumption by Node.js
 module.exports = {
     // Params: id for lookup
     // Return: The found JSON object

@@ -2,7 +2,9 @@
 
 const express = require('express');
 const app = express();
-const port = process.argv[2];
+var port = 80;
+if (process.argv[2])
+    port = process.argv[2];
 const fs = require('fs');
 const devices = require('./devices');
 //json spaces 0 // Dev = 2, Prod = 0
@@ -29,4 +31,4 @@ app.get('/devices/getByType/:type', function(req, res) {
     res.json(devices.getByType(typeParam));
 })
 
-app.listen(port, () => console.log(`Example app listening on port ${port}!`))
+app.listen(port, () => console.log(`Devices API online port ${port}`))

@@ -4,25 +4,24 @@ Gritty has a toybox. Inside of this toybox are Gritty's devices. This Node.js se
 
 ## Dependencies
 
-1. Node.js already installed
-2. Startup scripts will automatically install these Node.js modules: Express, jest
+1. Install Node.js
+2. Startup and Testing scripts will automatically install these Node.js modules using Node Package Manager (npm): Express, jest
 
 ## How to run
 
-1. If using Windows run `winStartup.bat`
+1. Using Windows run `winStartup.bat`
 2. Access `getById` API by calling `localhost\devices\getById\{id}`
 3. Access `getByType` API by calling `localhost\devices\getByType\{id}`
-4. 
+4. Run winTests.bat to run unit tests
 
 ## TODOs and assumptions
 
-1. The API implies the `id` property is unique.
-2. Implement caching of `devices.json` (need to determine how CRUD ops will work for this file)
-3. Implement hashed lookup byId and byType (returning an object and array, respectively)
-4. (alternative to 3 above, providing a more robust lookup interface) Create a function similar to `filter` which would normalize the Modules data automatically before returning data. I think this would lead to better abstraction and could be used in conjunction with tasks 2 and 3.
-5. Improve `devices.js` encapsulation using Javascript prototypes and singleton approach
-6. Add Unit/Linux ServerStartup and Tests bash scripts
-
+1. Add Unit/Linux bash scripts
+2. The API implies the `id` property is unique.
+3. Implement caching of `devices.json` (need to determine how CRUD ops will work for this file)
+4. Implement hashed lookup byId and byType (returning an object and array, respectively)
+5. (alternative to 3 above, providing a more robust lookup interface) Create a function similar to `filter` which would normalize the Modules data automatically before returning data. I think this would lead to better abstraction and could be used in conjunction with tasks 2 and 3.
+6. Improve `devices.js` encapsulation using Javascript prototypes and singleton approach
 
 # Challenge
 
