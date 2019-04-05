@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^24.7.1"
+  },
+  "jest": {
+    "modulePaths": [
+      "<rootDir>"
+    ],
+    "moduleDirectories": [
+      "node_modules"
+    ]
+  },
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}

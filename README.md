@@ -1,3 +1,29 @@
+## Basis
+
+Gritty has a toybox. Inside of this toybox are Gritty's devices. This Node.js server contains 2 API interfaces for Gritty to access his toys.
+
+## Dependencies
+
+1. Node.js already installed
+2. Startup scripts will automatically install these Node.js modules: Express, jest
+
+## How to run
+
+1. If using Windows run `winStartup.bat`
+2. Access `getById` API by calling `localhost\devices\getById\{id}`
+3. Access `getByType` API by calling `localhost\devices\getByType\{id}`
+4. 
+
+## TODOs and assumptions
+
+1. The API implies the `id` property is unique.
+2. Implement caching of `devices.json` (need to determine how CRUD ops will work for this file)
+3. Implement hashed lookup byId and byType (returning an object and array, respectively)
+4. (alternative to 3 above, providing a more robust lookup interface) Create a function similar to `filter` which would normalize the Modules data automatically before returning data. I think this would lead to better abstraction and could be used in conjunction with tasks 2 and 3.
+5. Improve `devices.js` encapsulation using Javascript prototypes and singleton approach
+6. Add Unit/Linux ServerStartup and Tests bash scripts
+
+
 # Challenge
 
 Wanna join the bestest most amazingest team at DICE? WHO DOESN'T?! Gotta do this challenge first tho.
@@ -11,6 +37,8 @@ Gritty always knows which editor you're using. You've been warned. `:w` `:q` `:q
 xoxo May The Grit Be With You
 
 ![image](https://thumbs.gfycat.com/RewardingBlushingBuck-size_restricted.gif)
+
+
 
 ## Tasks
 
