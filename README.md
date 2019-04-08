@@ -24,6 +24,7 @@ Gritty has a toybox. Inside of this toybox are Gritty's devices. This Node.js se
 6. Implement hashed lookup byId and byType (returning an object and array, respectively)
 7. (alternative to 3 above, providing a more robust lookup interface) Create a function similar to `filter` which would normalize the Modules data automatically before returning data. I think this would lead to better abstraction and could be used in conjunction with tasks 2 and 3.
 8. Improve `devices.js` encapsulation using Javascript prototypes and singleton approach
+9. Add API (URL) tests
 
 # Challenge
 
