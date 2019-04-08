@@ -18,11 +18,12 @@ Gritty has a toybox. Inside of this toybox are Gritty's devices. This Node.js se
 
 1. Add Unit/Linux bash scripts
 2. Implement security
-3. The API implies the `id` property is unique.
-4. Implement caching of `devices.json` (need to determine how CRUD ops will work for this file)
-5. Implement hashed lookup byId and byType (returning an object and array, respectively)
-6. (alternative to 3 above, providing a more robust lookup interface) Create a function similar to `filter` which would normalize the Modules data automatically before returning data. I think this would lead to better abstraction and could be used in conjunction with tasks 2 and 3.
-7. Improve `devices.js` encapsulation using Javascript prototypes and singleton approach
+3. Add better Async support [Not necessary with current implementation, but will be necessary as this evolves]
+4. The API implies the `id` property is unique.
+5. Implement caching of `devices.json` (need to determine how CRUD ops will work for this file)
+6. Implement hashed lookup byId and byType (returning an object and array, respectively)
+7. (alternative to 3 above, providing a more robust lookup interface) Create a function similar to `filter` which would normalize the Modules data automatically before returning data. I think this would lead to better abstraction and could be used in conjunction with tasks 2 and 3.
+8. Improve `devices.js` encapsulation using Javascript prototypes and singleton approach
 
 # Challenge
 
